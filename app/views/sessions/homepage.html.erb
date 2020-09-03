@@ -1,0 +1,4 @@
+<h1> Hi, <%= @user %> </h1>
+<%= button_to "logout", logout_path, method: :delete %>
+
+<h5> You wanna see something cool? <%= link_to("secret", secrets_path) %> </h5>
